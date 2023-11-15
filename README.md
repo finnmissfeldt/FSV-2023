@@ -7,7 +7,7 @@ Aufruf von BOBJ mit `./bobj.sh` oder für Kommandozeilen-Editor mit `rlwrap ./bo
 
 [`bobj.zip`](bobj.zip) anthält den Java-Quellcode von BOBJ und Beispiel-Spezifikationen
 
-- **Ubebung_01**: Counter, Stack, Lagerverwaltung
+- [**Uebung_01**](Uebung_01/Uebung_01.pdf): Counter, Stack, Lagerverwaltung
 
 ...
 
