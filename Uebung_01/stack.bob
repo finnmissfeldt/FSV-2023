@@ -1,0 +1,16 @@
+obj STACK is 
+    sorts Stack .
+    subsort NeStack < Stack .
+    protecting NAT .
+
+    op empty : -> Stack .
+    op push : Nat Stack -> NeStack .
+    op top : NeStack -> Nat .
+    op pop : NeStack -> Stack .
+
+    var X : Nat .
+    var S : Stack .
+    
+    eq top push(X,S) = X .
+    eq pop push(X,S) = S .
+endo
